@@ -13,11 +13,11 @@ local function check_and_notify()
 
 		if #disabled_names > 0 then
 			local message = "Disabled mods: " .. table.concat(disabled_names, ", ")
-			
+
 			if mod:get("print_to_chat") then
 				mod:echo(message)
 			end
-			
+
 			if mod:get("show_notification") then
 				mod:notify(message)
 			end
