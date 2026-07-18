@@ -1,6 +1,8 @@
+local mod = get_mod("disabled_mods_notifier")
+
 return {
-	name = "mod_name",
-	description = "mod_description",
+	name = mod:localize("mod_name"),
+	description = mod:localize("mod_description"),
 	is_togglable = true,
 	options = {
 		widgets = {
