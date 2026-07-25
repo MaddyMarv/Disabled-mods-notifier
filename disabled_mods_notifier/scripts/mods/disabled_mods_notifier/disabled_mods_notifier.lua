@@ -1,7 +1,7 @@
 local mod = get_mod("disabled_mods_notifier")
 local dmf = get_mod("DMF")
 
-local function check_and_notify()
+local function check_and_notify(is_on_load)
 	local disabled_mods = dmf:get("disabled_mods_list")
 	if disabled_mods then
 		local disabled_names = {}
@@ -18,7 +18,7 @@ local function check_and_notify()
 				mod:echo(message)
 			end
 
-			if mod:get("show_notification") then
+			if mod:get("show_notification") and not (is_on_load and mod:get("print_to_chat")) then
 				mod:notify(message)
 			end
 		end
@@ -27,10 +27,10 @@ end
 
 mod.on_all_mods_loaded = function()
 	if mod:get("notify_on_load") then
-		check_and_notify()
+		check_and_notify(true)
 	end
 end
 
 mod:command("check_disabled_mods", "Scans for what mods are disabled and notifies you.", function()
-	check_and_notify()
+	check_and_notify(false)
 end)
