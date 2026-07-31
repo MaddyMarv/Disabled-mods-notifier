@@ -6,7 +6,7 @@ local function check_and_notify(is_on_load)
 	if disabled_mods then
 		local disabled_names = {}
 		for mod_name, is_disabled in pairs(disabled_mods) do
-			if is_disabled then
+			if is_disabled and get_mod(mod_name) then
 				table.insert(disabled_names, mod_name)
 			end
 		end
