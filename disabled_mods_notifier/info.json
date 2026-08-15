@@ -3,7 +3,9 @@
     "author": "IndicaBunny",
     "version": "1.2",
     "source": "https://github.com/MaddyMarv/Disabled-mods-notifier",
-    "kofi": "https://ko-fi.com/indicabunny",
+    "funding": {
+        "kofi": "https://ko-fi.com/indicabunny"
+    },
     "description": "Alerts you if any of your mods are currently disabled.",
     "order": {
         "require": [],
