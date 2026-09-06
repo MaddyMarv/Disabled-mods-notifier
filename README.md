@@ -1,9 +1,7 @@
 ### [Disabled Mods Notifier](https://www.nexusmods.com/warhammer40kdarktide/mods/1102)
-
 <img width="661" height="125" alt="image" src="https://github.com/user-attachments/assets/76d22cf4-1e44-4a65-b43f-0603b31b687f" />
 
-Standalone mod that automatically scans your mod list and alerts you if any of your mods are currently disabled in the Darktide Mod Framework (DMF). You can automatically check on game load, or manually trigger a scan at any time using the `/check_disabled_mods` chat command.
-### Never forget to re-enable your mods!
+Alerts you in chat or with a screen pop-up if any mods are disabled in DMF. Scans on game load or via /check_disabled_mods.
 
 **Options:**
 
