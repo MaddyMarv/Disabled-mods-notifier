@@ -1,4 +1,4 @@
-Alerts you in chat or with a screen popup if any mods are disabled in DMF. Scans on game load or via /check_disabled_mods.
+Alerts you in chat or with a screen pop-up if any mods are disabled in DMF. Scans on game load or via /check_disabled_mods.
 
 [b]Options:[/b]
 
