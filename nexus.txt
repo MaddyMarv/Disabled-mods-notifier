@@ -1,0 +1,14 @@
+Standalone mod that automatically scans your mod list and alerts you if any of your mods are currently disabled in the Darktide Mod Framework (DMF). It features customizable alert options, allowing you to choose between local chat messages, on screen pop-up notifications, or both. You can automatically check on game load, or manually trigger a scan at any time using the /check_disabled_mods chat command.
+[b]Never forget to re-enable your mods![/b]
+
+[b]Options:[/b]
+
+[b]General[/b]
+- Enable Notification
+- Echo to Chat
+- Notification Duration (sec)
+
+[b]Commands:[/b]
+- /check_disabled_mods - Scans for what mods are disabled and notifies you.
+
+[b]Links:[/b] [url=https://github.com/MaddyMarv/Disabled-mods-notifier]Source Code[/url] | [url=https://www.nexusmods.com/profile/indicabunny]Nexus Mods Profile[/url] | [url=https://ko-fi.com/indicabunny]Support Me on Ko-fi[/url]
