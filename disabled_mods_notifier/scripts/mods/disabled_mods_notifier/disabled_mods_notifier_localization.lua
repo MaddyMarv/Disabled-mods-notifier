@@ -3,7 +3,7 @@ local localizations = {
 		en = "Disabled Mods Notifier",
 	},
 	mod_description = {
-		en = "Alerts you if any of your mods are currently disabled.",
+		en = "Alerts you in chat or with a screen popup if any mods are disabled in DMF.",
 	},
 	notify_on_load = {
 		en = "Notify on Game Load",

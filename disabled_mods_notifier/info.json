@@ -7,7 +7,7 @@
     "funding": {
         "kofi": "https://ko-fi.com/indicabunny"
     },
-    "description": "Alerts you if any of your mods are currently disabled.",
+    "description": "Alerts you in chat or with a screen popup if any mods are disabled in DMF.",
     "dependencies": {
         "required": [],
         "self_after": [],
