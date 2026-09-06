@@ -2,7 +2,7 @@
 
 <img width="661" height="125" alt="image" src="https://github.com/user-attachments/assets/76d22cf4-1e44-4a65-b43f-0603b31b687f" />
 
-Standalone mod that automatically scans your mod list and alerts you if any of your mods are currently disabled in the Darktide Mod Framework (DMF).You can automatically check on game load, or manually trigger a scan at any time using the `/check_disabled_mods` chat command.
+Standalone mod that automatically scans your mod list and alerts you if any of your mods are currently disabled in the Darktide Mod Framework (DMF). You can automatically check on game load, or manually trigger a scan at any time using the `/check_disabled_mods` chat command.
 ### Never forget to re-enable your mods!
 
 **Options:**
