@@ -6,6 +6,8 @@ Standalone mod that automatically scans your mod list and alerts you if any of y
 ### Never forget to re-enable your mods!
 
 **Options:**
+
+**General**
 - Enable Notification
 - Echo to Chat
 - Notification Duration (sec)
