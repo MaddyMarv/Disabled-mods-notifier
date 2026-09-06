@@ -6,8 +6,11 @@ Standalone mod that automatically scans your mod list and alerts you if any of y
 ### Never forget to re-enable your mods!
 
 **Options:**
-- Notify on Game Load
-- Print to Chat
-- Show Pop-up Notification
+- Enable Notification
+- Echo to Chat
+- Notification Duration (sec)
+
+**Commands:**
+- `/check_disabled_mods` - Scans for what mods are disabled and notifies you.
 
 🔗 **Links:** [Source Code](https://github.com/MaddyMarv/Disabled-mods-notifier) | [Nexus Mods Profile](https://www.nexusmods.com/profile/indicabunny) | [Support Me on Ko-fi](https://ko-fi.com/indicabunny)
