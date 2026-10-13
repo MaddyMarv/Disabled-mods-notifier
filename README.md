@@ -6,9 +6,9 @@ Alerts you in chat or with a screen pop-up if any mods are disabled in DMF. Scan
 **Options:**
 
 **General**
-- Enable Notification
-- Echo to Chat
-- Notification Duration (sec)
+- Notify on Game Load
+- Print to Chat
+- Show Pop-up Notification
 
 **Commands:**
 - `/check_disabled_mods` - Scans for what mods are disabled and notifies you.
